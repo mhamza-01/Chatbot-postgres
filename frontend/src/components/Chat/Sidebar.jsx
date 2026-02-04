@@ -13,7 +13,7 @@ export default function Sidebar({
 
   useEffect(() => {
     loadConversations();
-  }, []);
+  }, [onNewChat]);
 
   const loadConversations = async () => {
     try {

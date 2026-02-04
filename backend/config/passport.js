@@ -21,7 +21,7 @@ passport.use(
         });
 
         if (user) {
-          console.log('✅ Existing Google user found:', user.email);
+          console.log('✅ Existing Google user found:', user);
           return done(null, user);
         }
 
